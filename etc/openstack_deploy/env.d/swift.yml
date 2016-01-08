@@ -37,6 +37,7 @@ container_skel:
     properties:
       service_name: swift
       container_release: trusty
+      is_metal: true
   swift_acc_container:
     belongs_to:
       - swift_containers

@@ -55,6 +55,7 @@ container_skel:
     properties:
       service_name: neutron
       container_release: trusty
+      is_metal: true
   neutron_server_container:
     belongs_to:
       - network_containers
@@ -63,6 +64,7 @@ container_skel:
     properties:
       service_name: neutron
       container_release: trusty
+      is_metal: true
 
 
 physical_skel:

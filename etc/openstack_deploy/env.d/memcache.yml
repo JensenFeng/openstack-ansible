@@ -29,3 +29,4 @@ container_skel:
     properties:
       service_name: memcached
       container_release: trusty
+      is_metal: true

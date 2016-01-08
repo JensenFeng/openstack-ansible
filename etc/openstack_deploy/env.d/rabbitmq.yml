@@ -29,3 +29,4 @@ container_skel:
     properties:
       service_name: rabbitmq
       container_release: trusty
+      is_metal: true

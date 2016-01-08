@@ -34,3 +34,4 @@ container_skel:
       service_name: glance
       container_release: trusty
       container_fs_size: 12G
+      is_metal: true

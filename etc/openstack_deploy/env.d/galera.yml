@@ -30,3 +30,4 @@ container_skel:
       log_directory: mysql_logs
       service_name: galera
       container_release: trusty
+      is_metal: true

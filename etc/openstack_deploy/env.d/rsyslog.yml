@@ -28,6 +28,7 @@ container_skel:
     properties:
       service_name: rsyslog
       container_release: trusty
+      is_metal: true
 
 
 physical_skel:

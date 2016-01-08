@@ -40,6 +40,7 @@ container_skel:
     properties:
       service_name: heat
       container_release: trusty
+      is_metal: true
   heat_engine_container:
     belongs_to:
       - infra_containers
@@ -49,3 +50,4 @@ container_skel:
     properties:
       service_name: heat
       container_release: trusty
+      is_metal: true
